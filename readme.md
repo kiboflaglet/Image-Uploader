@@ -5,7 +5,7 @@
 Image uploader is server based image uploading app, it has drag n drop and state for image to process while you can share the link and download the image from server.
 
 ## Demo
-[Vercel app](http://example.com)
+[image-uploader-2uxy.vercel.app](https://image-uploader-2uxy.vercel.app/)
 
 
 ## Features
