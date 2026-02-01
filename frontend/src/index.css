@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --color-main-1: #e5e7eb;
+  --color-main-2: #ffffff;
+  --color-main-3: #f9fafb;
+  --color-main-4: black;
+  --color-main-5: #f7f9fb;
+}
+
+[data-theme="dark"] {
+  --color-main-1: #4d5562;
+  --color-main-2: #121826;
+  --color-main-3: #212936;
+  --color-main-4: white;
+  --color-main-5: #0f131d;
+
+}
+
+@layer base {
+  body {
+    background-color: var(--color-main-5);
+    color: var(--color-main-4);
+  }
+}
+
+.fade-x-mask {
+  scrollbar-width: none;
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 20px,
+    black calc(100% - 20px),
+    transparent
+  );
+}
