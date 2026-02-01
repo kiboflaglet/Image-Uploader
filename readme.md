@@ -17,7 +17,7 @@ Image uploader is server based image uploading app, it has drag n drop and state
 - When the image is uploading, users can see a loader like in the design.
 - When the image is successfully uploaded, users can see the image.
 - After the image is uploaded, users can copy its address by selecting the **`Share`** button.
-- User can view the page under by going share link
+- User can preview the image by going the shared link
 - After the image is uploaded, users can download the image by selecting the **`Download`** button.
 - Users can change the theme between dark and light.
 

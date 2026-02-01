@@ -2,7 +2,6 @@ import axios from "axios";
 import { useCallback, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import { v4 as uuidv4 } from "uuid";
-import DownloadIcon from "./assets/download.svg";
 import UploadImage from "./assets/exit.svg";
 import ShareIcon from "./assets/Link.svg";
 import { cn } from "./utils/cn";
